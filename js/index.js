@@ -98,7 +98,7 @@ $(function (){
                 $('.todolist li input:checked').each(function (index,item){
                     var taskText = $(item).siblings('.con').text();
                     // 向已处理列表添加元素
-                    _this.$donelist.append('<li>'+taskText+'</li>');
+                    _this.$donelist.append('<li>'+taskText+'&nbsp;已完成</li>');
                     $(item).parent().remove();//删除当前元素的父节点
                     _this.$all.prop('checked',false);//取消全选
                 })
