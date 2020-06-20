@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.wrap{
+    width: 700px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #ddd;
+}
+.wrap h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.iptbox .ipt{
+    width: 619px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.iptbox .add{
+    font-size: 16px;
+    padding: 5px 20px;
+}
+.todolist{
+    padding: 10px;
+}
+.todolist li{
+    background-color: #ccc;
+    line-height: 40px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.todolist li .remove{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    color: red;
+    display: none;
+}
+.todolist li:hover .remove{
+    display: block;
+}
+.todolist li .edit{
+    float: right;
+    cursor: pointer;
+    color: red;
+    display: none;
+}
+.todolist li:hover .edit{
+    display: block;
+}
+.todolist .repIpt{
+    width: 400px;
+    line-height: 34px;
+    font-size: 16px;
+    padding: 0 6px;
+}
+.batch span{
+    margin-right: 20px;
+    cursor: pointer;
+    color: blue;
+}
+.donelist li{
+    line-height: 36px;
+    font-size: 16px;
+    background-color: #999;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    color: #666;
+}
